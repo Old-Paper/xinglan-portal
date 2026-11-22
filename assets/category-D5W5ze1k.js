@@ -1,0 +1,1 @@
+import{r as t}from"./index-DAGN-pTu.js";import{c as r}from"./resource-BXJNVFKh.js";const e=r("categories"),s=e.list;e.get;const c=e.create,g=e.update,i=e.remove,p=()=>t.get("/categories/tree");export{s as a,c,i as d,p as g,g as u};

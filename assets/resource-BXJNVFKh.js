@@ -1,0 +1,1 @@
+import{r}from"./index-DAGN-pTu.js";function $(o){const t=`/${o}`;return{list:e=>r.get(t,{params:e}),get:e=>r.get(`${t}/${e}`),create:e=>r.post(t,e),update:(e,p)=>r.put(`${t}/${e}`,p),remove:e=>r.delete(`${t}/${e}`)}}export{$ as c};
